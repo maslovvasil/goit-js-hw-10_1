@@ -5,10 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./sass/owlcarousel.scss" /> -->
     <script type="module" src="./index.js"></script>
   </head>
   <body>
+    <link rel="import" href="./html/owlCarousel1.html">
+<div class="articles">
+  <div w3-include-html="./html/owlCarousel1.html"></div>
+<e-html data-src="./html/owlCarousel1.html"></e-html>
+    <div class="home-demo">
+  <h3>Demo</h3>
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <h2>Swipe</h2>
+    </div>
+    <div class="item">
+      <h2>Drag</h2>
+    </div>
+    <div class="item">
+      <h2>Responsive</h2>
+    </div>
+    <div class="item">
+      <h2>CSS3</h2>
+    </div>
+    <div class="item">
+      <h2>Fast</h2>
+    </div>
+    <div class="item">
+      <h2>Easy</h2>
+    </div>
+    <div class="item">
+      <h2>Free</h2>
+    </div>
+    <div class="item">
+      <h2>Upgradable</h2>
+    </div>
+    <div class="item">
+      <h2>Tons of options</h2>
+    </div>
+    <div class="item">
+      <h2>Infinity</h2>
+    </div>
+    <div class="item">
+      <h2>Auto Width</h2>
+    </div>
+  </div>
+</div>
+</div>
+<div>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">INFO1</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">INFO2</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">INFO3</div>
+</div>
+</div>
+
+
+
+
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <!-- <include src="./partials/example.html"></include> -->
+
+    <script src="./js/jquery-3.6.3.slim.min.js"></script>
+    <script src="../node_modules/owl.carousel2/dist/owl.carousel.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+includeHTML();
+</script>
   </body>
 </html>
